@@ -1,0 +1,7 @@
+---
+Name: fromholdio-elemental-group
+---
+
+DNADesign\Elemental\Models\BaseElement:
+  extensions:
+    - Fromholdio\ElementalGroup\Extensions\BaseElementCMSEditLinkExtension

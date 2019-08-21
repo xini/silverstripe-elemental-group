@@ -1,0 +1,29 @@
+{
+    "name": "fromholdio/silverstripe-elemental-group",
+    "type": "silverstripe-vendormodule",
+    "description": "Elemental block type 'Group' which holds other elemental blocks (akin to ElementList)",
+    "license": "BSD-3-Clause",
+    "keywords": ["silverstripe", "elemental", "group", "list"],
+    "homepage": "https://github.com/fromholdio/silverstripe-elemental-group",
+    "support": {
+        "issues": "https://github.com/fromholdio/silverstripe-elemental-group/issues"
+    },
+    "authors": [{
+        "name": "Luke Fromhold",
+        "homepage": "https://fromhold.io"
+    }],
+    "require": {
+        "php": ">=5.6",
+        "silverstripe/vendor-plugin": "^1.0",
+        "silverstripe/cms": "^4.0",
+        "dnadesign/silverstripe-elemental": "^4.0.0",
+        "fromholdio/silverstripe-elemental-multiarea": "^1.0.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fromholdio\\SuperLinkerMegaMenus\\": "src/"
+        }
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}

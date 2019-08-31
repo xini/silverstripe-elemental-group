@@ -19,20 +19,20 @@ class ElementGroup extends BaseElement
     ];
 
     private static $has_one = [
-        'Elements' => ElementalArea::class
+        'ElementalArea' => ElementalArea::class
     ];
 
     private static $owns = [
-        'Elements'
+        'ElementalArea'
     ];
 
     private static $cascade_deletes = [
-        'Elements'
+        'ElementalArea'
     ];
 
     public function getIsElementEmpty()
     {
-        return ($this->Elements()->count() < 1);
+        return ($this->ElementalArea()->Elements()->count() < 1);
     }
 
     public function getType()

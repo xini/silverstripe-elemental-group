@@ -19,10 +19,10 @@ class BaseElementCMSEditLinkExtension extends Extension
             return;
         }
 
-        if ($page instanceof ElementGroup && $relationName === 'Elements') {
+        if ($page instanceof ElementGroup && $relationName === 'ElementalArea') {
             $link = Controller::join_links(
                 $page->CMSEditLink(),
-                'ItemEditForm/field/Elements/item/',
+                'ItemEditForm/field/ElementalArea/item/',
                 $owner->ID
             );
         }

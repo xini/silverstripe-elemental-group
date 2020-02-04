@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Fromholdio\\SuperLinkerMegaMenus\\": "src/"
+            "Fromholdio\\ElementalGroup\\": "src/"
         }
     },
     "prefer-stable": true,

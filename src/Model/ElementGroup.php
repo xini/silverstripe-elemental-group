@@ -30,6 +30,10 @@ class ElementGroup extends BaseElement
         'Elements'
     ];
 
+    private static $cascade_duplicates = [
+        'Elements'
+    ];
+
     public function getIsElementEmpty()
     {
         return ($this->Elements()->Elements()->count() < 1);
